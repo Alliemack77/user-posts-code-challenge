@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.1;
+    padding: 1rem 2rem;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+/* Containing box */
+.authors {
+    max-width: 87.5rem;
+    margin-inline: auto;
+    padding: 2rem;
+    border-radius: 30px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+
+/* Author */
+
+.author {
+    padding: 1rem 1.75rem;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.author-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+
+}
+
+.btn {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fa-solid {
+    color: #42A5F5;
+}
+
+.post {
+    padding: 1rem .75rem;
+    border-top: 1px solid #E5E5E5;
+}
+
+.none {
+    display: none;
+}
