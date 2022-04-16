@@ -98,7 +98,7 @@ const createButtons = (user) => {
 
     const btns = document.createElement('div');
     btns.classList.add('btns');
-    btns.addEventListener('click', () => showPosts(user)); // instead just have click event toggle posts div visability by adding/removing class
+    btns.addEventListener('click', () => showPosts(user)); 
 
     // "All posts" btn
     const closeBtn = document.createElement('div');
