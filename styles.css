@@ -24,6 +24,14 @@ p {
     margin: 0;
 }
 
+h2 {
+    font-size: clamp(1rem, 3vw, 1.25rem);
+}
+
+p {
+    font-size: clamp(.85rem, 2vw, 1rem);
+}
+
 /* Containing box */
 .authors {
     max-width: 87.5rem;
@@ -58,7 +66,7 @@ p {
 
 .btn {
     display: flex;
-    gap: 1rem;
+    /* gap: 1rem; */
     align-items: center;
     cursor: pointer;
 }
